@@ -1,0 +1,38 @@
+$header-color: #afb281;
+
+.header {
+  background: $header-color;
+}
+
+.header__title {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: $header-color;
+
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__ad {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.header__lastad {
+  display: block;
+  float: right;
+}
+
+.header__link {
+  color: #000;
+  text-decoration: bold;
+
+}
