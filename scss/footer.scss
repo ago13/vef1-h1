@@ -43,3 +43,9 @@
   font-size: 10px;
   text-align: center;
 }
+
+.footer__link:hover {
+  color: $link-hover2;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}

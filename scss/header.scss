@@ -5,6 +5,7 @@
 .header__title {
   width: 100%;
   padding: 10px;
+  font-size: 48px;
   text-align: center;
   background: $header-color;
 
@@ -19,18 +20,51 @@
 .header__ad {
   display: inline-block;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-right: 5px;
   margin-left: 5px;
+  text-decoration: none;
 }
 
 .header__lastad {
-  display: block;
-  float: right;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 10px;
 }
 
 .header__link {
+  font-weight: bold;
   color: #000;
-  text-decoration: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
 
+.header__currentlink {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.header__lastlink {
+  color: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header__link:hover {
+  color: $link-hover;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.header__currentlink:hover {
+  color: $link-hover;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.header__lastlink:hover {
+  color: $link-hover;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
 }
