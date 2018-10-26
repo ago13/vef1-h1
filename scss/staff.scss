@@ -1,0 +1,23 @@
+.allstaff {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.staff {
+  display: flex;
+  width: 100%;
+  max-width: 580px;
+  max-height: 800px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  flex-flow: column wrap;
+}
+
+.staff__img {
+  max-width: 580px;
+}
